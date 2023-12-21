@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="user"><h2>User settings</h2>
+<p>Lorem ipsum dolor sit amet.</p>
+</div>
+<form action="" id="form">
+<div id="personal">
+  <label for="">Personal info</label>
+</div>
+<div id="input">
+  <div id="style" style="width: fit-content;">
+  
+<input  type="text" placeholder="firstname" name="first name" id="firstname" required>
+<input type="text" placeholder="lastname"  name="Last name" id="lastname" required >
+</div>
+<select id="country">
+ <option value= selected hidden>country</option>
+ <option value="Nigeria">Nigeria</option>
+ <option value="Canada">Canada</option>
+ <option value="Ghana">Ghana</option>
+</select>
+<div id="notification">
+  <div class="noti">
+  <label for=""><h3>Notification</h3></label>
+</div>
+</div>
+  <div class="notif-child">
+    <p>weekly report</p>
+    <!-- Rounded switch -->
+<label class="switch">
+  <input  id="week" type="checkbox">
+  <span class="slider round"></span>
+</label>
+  </div>
+  <div class="pull">
+    <p>Pull Requests </p>
+    <!-- Rounded switch -->
+<label class="switch">
+  <input id="pull" type="checkbox">
+  <span class="slider round"></span>
+</label>
+   </div>
+
+  <div id="deploymenttriggers">
+    <label for="">deployment triggers</label>
+    <!-- Rounded switch -->
+<label class="switch">
+  <input id="switchs" type="checkbox">
+  <span class="slider round"></span>
+</label>
+  </div>
+  
+</div>
+
+
+<div id="security">
+  <label for=""><H2>security</H2></label>
+  <div>
+    <div class="run">
+      <p>Run security check upon log in </p>
+      <input id="security" type="checkbox">
+    </div>
+  </div>
+  <div class="less"><P>less</P>
+    <input id="range" type="range">
+    <p>more</p>
+  </div>
+</div>
+<div class="btn">
+  <button class="btn1" type="submit">Save</button>
+  <button class="btn2" type="reset">CANCEL</button>
+
+</div>
+  <script src="index.js"></script>
+</form>
+</body> 
+</html>

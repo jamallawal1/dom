@@ -1,0 +1,183 @@
+body{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.user{
+    border-bottom: 2px solid whitesmoke;
+
+}
+/* div{
+    border-bottom: 3px solid whitesmoke;
+   
+} */
+.noti{
+    border-top: 2px solid whitesmoke;
+    
+    display: flex;
+justify-content: space-between;
+padding-bottom: 10px;
+align-items: center;
+}
+.run{
+display: flex;
+justify-content: space-between;
+width: 23.5rem;
+align-items: center;
+}
+.less{
+  display: flex;
+justify-content: space-between;
+width: 100%;
+}
+#range{
+  width: 100%;
+
+}
+.btn{
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+}
+button{
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn1{
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.btn2{
+  background-color: black;
+  color: white;
+  border-color: blue;
+}
+#security{
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: start;
+ width: 23.5rem;
+justify-content: space-between;
+
+}
+
+form{
+  width: 23.5;
+}
+
+#style{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#deploymenttriggers{
+    padding-top: 5px;
+    padding-bottom: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: solid 2px whitesmoke;
+}
+/* .firname{
+    border-radius: 20px;
+    padding-bottom: 10px;
+} */
+#personal{
+    padding: 10px 0px;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+  /
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr ; */
+}
+.pull{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.notif-child{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 27px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 26px;
+    left: 5px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
